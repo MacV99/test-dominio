@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>BOLI ASISTENTE</title>
+
+</head>
+
+<body>
+  <img id="logo" src="./img/HERRAMIENTAS PROFESIONALES.png" alt="Logo de Boliglobos">
+  <div class="chat-container">
+    <div class="chat-header">🎈Boli Asistente🎈</div>
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="typing-indicator" id="typing-indicator">Escribiendo...</div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Escribe tu pregunta..." aria-label="Escribe tu pregunta">
+      <button onclick="sendMessage()" aria-label="Enviar mensaje">Enviar</button>
+    </div>
+  </div>
+  <footer>
+    <ul id="social-networks" class="flex-row">
+      <a href="https://www.instagram.com/boliglobos_latino/?hl=en" target="_blank" aria-label="Instagram"><i
+          class="bi bi-instagram"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=+573184215899&text=Hola,%20quiero%20adquirir%20un%20producto%F0%9F%8E%88"
+        target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      <a href="https://www.facebook.com/Boligloboslatino/?locale=es_LA" target="_blank" aria-label="Facebook"><i
+          class="bi bi-facebook"></i></a>
+      <a href="https://www.tiktok.com/@boliglobos" target="_blank" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+      <a href="https://www.youtube.com/@boligloboslatino" target="_blank" aria-label="YouTube"><i
+          class="bi bi-youtube"></i></a>
+    </ul>
+    <p><b>Boliglobos Copyright 2024. Todos Los Derechos Reservados.</b></p>
+    <p>Este sitio no forma parte del sitio web de Facebook o de Facebook Inc. Además, este sitio NO está respaldado por
+      Facebook de ninguna manera. FACEBOOK es una marca registrada de FACEBOOK, Inc.
+    </p>
+  </footer>
+
+  <script src="./app.js"></script>
+
+</body>
+
+</html>
